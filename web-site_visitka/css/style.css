@@ -1,0 +1,94 @@
+@font-face {
+    font-family: OpenSans-Light ;
+    src: url('./fonts/OpenSans-Light.ttf');
+}
+body {
+    font-family: OpenSans-Light;
+    background-color: rgb(42, 113, 134);
+    color: white;
+}
+
+.header{
+    background-color: white;
+    position: static;
+    text-align: center;   
+}
+.group1{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(128, 165, 199);
+    justify-content: center;
+}
+P{
+    font-family: sans-serif;
+}
+.img{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5%;
+    border: black solid 1px;
+    display: flex;
+    flex-direction: row;
+}
+.about{
+    
+    padding: 5 px;
+    margin: 2px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: stretch;
+}
+
+.main{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+}
+
+.work{
+    background-color: rgb(128, 165, 199);
+    padding: 50 px;
+    margin: 20px;
+    text-align: center;
+}
+.hobby{
+    background-color: rgb(128, 165, 199);
+    padding: 50 px;
+    margin: 20px;
+    text-align: center;
+
+}
+.header{
+    background-color: rgb(128, 165, 199);
+    padding: 50 px;
+    margin: 20px;
+    text-align: center;
+    
+}
+
+.education{
+    background-color: rgb(128, 165, 199);
+    padding: 50 px;
+    margin: 20px;
+    text-align: center;
+
+}
+.footer{
+    background-color: rgb(128, 165, 199);
+    padding: 50 px;
+    margin: 20px;
+    text-align: center;
+}
+.head{
+    display: flex;
+    flex-direction:column-reverse;
+    list-style-type: none;
+}
